@@ -81,5 +81,4 @@ if __name__ == "__main__":
         l += [0 if int(v) == 16 else int(v) for v in line.split(" ")]
     f.close()
     p = Puzzle15(l)
-    p.rangedShuffle(random.randint(40, 60))
     do_the_job(p)
